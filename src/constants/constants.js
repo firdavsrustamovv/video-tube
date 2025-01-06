@@ -1,9 +1,9 @@
 import { ZoomInMapTwoTone } from "@mui/icons-material";
 
 export const category = [
-  { name: "Html", icon: <ZoomInMapTwoTone /> },
-  { name: "Css", icon: <ZoomInMapTwoTone /> },
   { name: "JavaScript", icon: <ZoomInMapTwoTone /> },
+  { name: "Css", icon: <ZoomInMapTwoTone /> },
+  { name: "Html", icon: <ZoomInMapTwoTone /> },
   { name: "Sql", icon: <ZoomInMapTwoTone /> },
   { name: "VueJs", icon: <ZoomInMapTwoTone /> },
   { name: "TypeScript", icon: <ZoomInMapTwoTone /> },

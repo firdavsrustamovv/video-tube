@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Category, Videos } from "../index";
 import { ApiService } from "../../service/api.service";
 function Main() {
-  const [selectedCategory, setSelectedCategory] = useState("Html");
+  const [selectedCategory, setSelectedCategory] = useState("JavaScript");
   const [videos, setVideos] = useState([]);
   const selectedCategoryHandler = (category) => setSelectedCategory(category);
   useEffect(() => {
